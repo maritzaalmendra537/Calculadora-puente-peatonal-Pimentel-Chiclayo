@@ -1,0 +1,35 @@
+<div class="container">
+  <h1>Calculadora de Regresión Cúbica con Gráfica</h1>
+
+  <!-- Entradas -->
+  <label for="x1">X1 - % artículos RNE aplicados</label>
+  <input type="number" id="x1" step="any">
+
+  <label for="x2">X2 - % análisis estructural simulado</label>
+  <input type="number" id="x2" step="any">
+
+  <label for="x3">X3 - % cronograma ejecutado</label>
+  <input type="number" id="x3" step="any">
+
+  <label for="x4">X4 - % materiales sostenibles empleados</label>
+  <input type="number" id="x4" step="any">
+
+  <label for="x5">X5 - % usuarios satisfechos</label>
+  <input type="number" id="x5" step="any">
+
+  <label for="x6">X6 - Validación estructural AASHTO (%)</label>
+  <input type="number" id="x6" step="any">
+
+  <label for="x8">X8 - % variación presupuestal</label>
+  <input type="number" id="x8" step="any">
+
+  <label for="x9">X9 - % aprobación ciudadana en encuestas</label>
+  <input type="number" id="x9" step="any">
+
+  <button onclick="calcular()">Calcular y Mostrar Gráfica</button>
+
+  <div class="resultado" id="resultado"></div>
+
+  <!-- Gráfica -->
+  <canvas id="grafico" style="margin-top: 2rem;"></canvas>
+</div>
